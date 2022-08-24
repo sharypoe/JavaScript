@@ -6,26 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript Example</title>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => 
-    {
-      function createParagraph() 
-      {
-        const para = document.createElement('p');
-        para.textContent = 'You clicked the button!';
-        document.body.appendChild(para);
-      }
-
-      const buttons = document.querySelectorAll('button');
-
-      for (const button of buttons) 
-      {
-        button.addEventListener('click', createParagraph);
-      }
-    });
-  </script>
-  
+  <script src="script.js" defer></script>
 </head>
 
 <body>
